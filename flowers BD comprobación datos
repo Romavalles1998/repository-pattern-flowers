@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS flor (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL
+);
+
+INSERT INTO flor (name) VALUES ('Rosa');
+INSERT INTO flor (name) VALUES ('Lirio');
+INSERT INTO flor (name) VALUES ('Tulipán');
+INSERT INTO flor (name) VALUES ('Girasol');
+INSERT INTO flor (name) VALUES ('Orquídea');
+INSERT INTO flor (name) VALUES ('Clavel');
+INSERT INTO flor (name) VALUES ('Dalia');
+
+PARA COMPROBAR DATOS:
+
+SELECT * FROM flor;
+SELECT name FROM flor;
+SELECT * FROM flor WHERE id = 1;
+SELECT COUNT(*) FROM flor;
+
