@@ -3,13 +3,14 @@ CREATE TABLE IF NOT EXISTS flor (
     name TEXT NOT NULL
 );
 
-INSERT INTO flor (name) VALUES ('Rosa');
-INSERT INTO flor (name) VALUES ('Lirio');
-INSERT INTO flor (name) VALUES ('Tulipán');
-INSERT INTO flor (name) VALUES ('Girasol');
-INSERT INTO flor (name) VALUES ('Orquídea');
-INSERT INTO flor (name) VALUES ('Clavel');
-INSERT INTO flor (name) VALUES ('Dalia');
+INSERT INTO flor (id, name) VALUES (12001, 'Rosa');
+INSERT INTO flor (id, name) VALUES (12002, 'Lirio');
+INSERT INTO flor (id, name) VALUES (12003, 'Tulipán');
+INSERT INTO flor (id, name) VALUES (12004, 'Girasol');
+INSERT INTO flor (id, name) VALUES (12005, 'Orquídea');
+INSERT INTO flor (id, name) VALUES (12006, 'Clavel');
+INSERT INTO flor (id, name) VALUES (12007, 'Dalia');
+INSERT INTO flor (id, name) VALUES (12008, 'Lavanda');
 
 PARA COMPROBAR DATOS:
 
